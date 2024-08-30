@@ -24,7 +24,7 @@ const UserForm = ({ onSave, user, onCancel }) => {
       try {
         const response = await axios.get(`${apiURL}/users`);
         const uniqueDepartments = [...new Set(response.data.map(user => user.department))];
-        console.log("uniqueDepartments", uniqueDepartments);
+        // console.log("uniqueDepartments", uniqueDepartments);
         
         setDepartments(uniqueDepartments);
       } catch (error) {
