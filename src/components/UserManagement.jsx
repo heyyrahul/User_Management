@@ -124,7 +124,6 @@ const UserManagement = () => {
     setSelectedDepartment(event.target.value);
   };
 
-  // Filter users based on search term and selected department
   const filteredUsers = users.filter((user) => {
     const matchesSearch =
       user.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
