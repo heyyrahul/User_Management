@@ -7,6 +7,8 @@ One can easily manage their user in terms of CRUD operations.
 - Read the users
 - Update the users
 - Delete the users
+- Search users based upon name and email
+- filter users based upon department 
 
 ## Directory Structure
   ```
@@ -30,8 +32,8 @@ One can easily manage their user in terms of CRUD operations.
 
 # Screenshot
 
+![user-management-rahul vercel app_](https://github.com/user-attachments/assets/a4a06ee8-71a3-48d0-a6c3-908560c7b10a)
 
-![home](https://github.com/user-attachments/assets/26ffcd97-c5c8-4116-aa6e-c76971e33f29)
 
 # Video 
 
