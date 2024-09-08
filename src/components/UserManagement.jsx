@@ -177,7 +177,7 @@ const UserManagement = () => {
       <Button
         variant="contained"
         onClick={handleOpenDialog}
-        sx={{ marginTop: 1, marginBottom: 2, backgroundColor: "#0F67B1" }}
+        sx={{ marginTop: 1, marginBottom: 2, backgroundColor: "#134B70"}}
       >
         + Add User
       </Button>
