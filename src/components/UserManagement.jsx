@@ -17,6 +17,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { apiURL } from "../services/api";
 
+import GitHubIcon from '@mui/icons-material/GitHub';
 const departmentsList = [
   "Design",
   "Sales",
@@ -177,10 +178,20 @@ const UserManagement = () => {
       <Button
         variant="contained"
         onClick={handleOpenDialog}
-        sx={{ marginTop: 1, marginBottom: 2, backgroundColor: "#134B70"}}
+        sx={{ marginTop: 1, marginBottom: 2, backgroundColor: "#134B70",marginRight: 2 }}
       >
         + Add User
       </Button>
+        <Button
+          variant="contained"
+          startIcon={<GitHubIcon />}
+          href="https://github.com/heyyrahul/User_Management"
+          target="_blank"
+          sx={{ backgroundColor: '#134B70', color: '#fff', textTransform: 'none' ,marginTop: 1, marginBottom: 2}}
+        >
+          GitHub Repository
+        </Button>
+    
 
       <UserTable
         users={filteredUsers.slice(
