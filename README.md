@@ -31,8 +31,8 @@ One can easily manage their user in terms of CRUD operations.
 
 
 # Screenshot
+![user-management-rahul vercel app_](https://github.com/user-attachments/assets/9fa5f33b-f29a-418c-93da-ca94a0b20d08)
 
-![user-management-rahul vercel app_](https://github.com/user-attachments/assets/a4a06ee8-71a3-48d0-a6c3-908560c7b10a)
 
 
 # Video 
